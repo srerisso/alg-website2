@@ -17,51 +17,170 @@
   </head>
 
   <body>
-
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <!-- nav -->
+    <nav class="navbar navbar-toggleable-md navbar-light sticky-top" style="background-color: #def4c6;">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Alugandia</a>
+      <a class="navbar-brand" href="/"><img src="images/g4499t_nav.png" alt="alugandia logo" width="30" height="30" class="d-inline-block align-top"> Alugandia</a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Empresa</a>
-          </li>
+        <ul class="navbar-nav mr-auto uppercaseandsmall">
           <li class="nav-item active">
-            <a class="nav-link" href="productos.html">Productos <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Empresa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item uppercaseandsmall" href="#">Descargas</a>
+              <a class="dropdown-item uppercaseandsmall" href="#">Consultas técnicas</a>
+              <a class="dropdown-item uppercaseandsmall" href="#">Referencias</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" href="#">Intranet</a>
           </li>
         </ul>
 
       </div>
     </nav>
+    <!-- nav ends  -->
 
-    <!-- Big image -->
-    <div class="jumbotron">
-      <h1>Hello World !!!</h1>
-    </div>
-
+    <!-- Cards -->
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <div class="card-block">
+                        <h5 class="text-bold">Tawshif Ahsan Khan</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <div class="card-block">
+                        <h4 class="card-title">Tawshif Ahsan Khan</h4>
+                        <div class="meta">
+                            <a href="#">Friends</a>
+                        </div>
+                        <div class="card-text">
+                            Tawshif is a web designer living in Bangladesh.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="float-right">Joined in 2013</span>
+                        <span><i class=""></i>75 Friends</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <p class="card-block">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit quisquam veniam excepturi temporibus inventore corporis dicta sit culpa veritatis placeat earum, dolorum asperiores, delectus dolore voluptatibus, at magnam nobis!
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <div class="card-block">
+                        <figure class="profile">
+                            <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                        </figure>
+                        <h4 class="card-title mt-3">Tawshif Ahsan Khan</h4>
+                        <div class="meta">
+                            <a>Friends</a>
+                        </div>
+                        <div class="card-text">
+                            Tawshif is a web designer living in Bangladesh.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                        <button class="btn btn-secondary float-right btn-sm">show</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="row mb-5">
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card card-inverse card-primary ">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <blockquote class="card-blockquote p-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                        <footer>
+                            <small>
+                          Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <div class="card-block">
+                        <figure class="profile">
+                            <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                        </figure>
+                        <h4 class="card-title mt-3">Tawshif Ahsan Khan</h4>
+                        <div class="meta card-text">
+                            <a>Friends</a>
+                        </div>
+                        <div class="card-text">
+                            Tawshif is a web designer living in Bangladesh.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                        <button class="btn btn-info float-right btn-sm">Follow</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <div class="card-block">
+                        <figure class="profile profile-inline">
+                            <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                        </figure>
+                        <h4 class="card-title">Tawshif Ahsan Khan</h4>
+                        <div class="card-text">
+                            Tawshif is a web designer living in Bangladesh.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small>Last updated 3 mins ago</small>
+                        <button class="btn btn-info float-right btn-sm">Follow</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+                    <div class="card-block">
+                        <figure class="profile profile-inline">
+                            <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                        </figure>
+                        <h4 class="card-title">Tawshif Ahsan Khan</h4>
+                        <div class="card-text">
+                            Tawshif is a web designer living in Bangladesh.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-info btn-sm">Follow</button>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
 
