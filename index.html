@@ -18,37 +18,37 @@
 
   <body>
     <!-- nav -->
-    <nav class="navbar navbar-toggleable-md navbar-light sticky-top" style="background-color: #def4c6;">
+    <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #def4c6;">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsAlu" aria-controls="navbarsAlu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="images/g4499t_nav.png" alt="alugandia logo" width="30" height="30" class="d-inline-block align-top"> Alugandia</a>
-
-      <div class="collapse navbar-collapse" id="navbarsAlu">
-        <ul class="navbar-nav mr-auto uppercaseandsmall">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Empresa <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="productos.html">Productos</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item uppercaseandsmall" href="#">Descargas</a>
-              <a class="dropdown-item uppercaseandsmall" href="#">Consultas técnicas</a>
-              <a class="dropdown-item uppercaseandsmall" href="#">Referencias</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" href="#">Intranet</a>
-          </li>
-        </ul>
-
-      </div>
+      <a class="navbar-brand" href="/"><img src="images/g4499t_nav.png" alt="alugandia logo" class="d-inline-block"></a>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarsAlu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Empresa <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Descargas</a>
+                <a class="dropdown-item" href="#">Consultas técnicas</a>
+                <a class="dropdown-item" href="#">Referencias</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" href="#">Intranet</a>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- container for nav ends -->
     </nav>
     <!-- nav ends  -->
 
@@ -61,7 +61,7 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="col-6">
+        <div class="col">
           <h3>La empresa</h3>
           <p>Lorem ipsum dolor sit amet, cu inciderint concludaturque has, sea dicit iriure at. Ut soleat verear delicatissimi per, decore utroque sensibus ea sit. An sed consequat definitiones, dicant persequeris eu sit, ad decore commune vis. Qui wisi tritani vituperatoribus ad.
           Nec ut offendit intellegebat, ferri aeterno perfecto ex duo. Eos ei laudem graeci definiebas. Eos esse suscipit legendos no, ut tale sint nec, quas denique fabellas ius ut. Usu omittam iudicabit te, vim virtute maiorum constituam te.</p>
@@ -99,12 +99,56 @@
         <p>Utamur fierent ei eum, ludus ornatus et eum. Nam eu paulo dignissim incorrupte. Nec ferri debitis eu, eum dolorem corrumpit te. In ius summo iusto vitae, tota debet sea ad.</p>
       </div>
 
-      <hr>
+      <!-- footer -->
+      <footer class="footer" style="background-color: #def4c6;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-road"></i> Alugandia S.L.</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">Product</a></li>
+                                <li><a href="">Benefits</a></li>
+                                <li><a href="">Partners</a></li>
+                                <li><a href="">Team</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">Documentation</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Legal Terms</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                    <br>
+                </div>
 
-      <footer>
-        <p>&copy; Alugandia S.L. 2017</p>
-
-        <p>Localización</p>
+                <div class="col-md-5">
+                  <h5>Contacto</h5>
+                  <p>Departamento Técnico
+                    <br>
+                    <a href="mailto:tecnico@alugandia.es">tecnico@alugandia.es</a>
+                  </p>
+                  <p>Pedidos
+                    <br>
+                    <a href="mailto:pedidos@alugandia.es">pedidos@alugandia.es</a>
+                  </p>
+                  <p>Administración
+                    <br>
+                    <a href="mailto:administracion@alugandia.es">administracion@alugandia.es</a>
+                  </p>
+                </div>
+            </div>
+        </div>
       </footer>
     </div> <!-- /container-fluid -->
 
