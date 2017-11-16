@@ -3,17 +3,26 @@
   font-size: small;
 }
 
+
+/* Footer styles */
+.footer {
+  background-color: #1b512d;
+  padding: 10px;
+}
+
+/* Map container en footer */
+#map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
 /* Cards css */
 html {
     font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 14px;
-}
-
-h5 {
-    font-size: 1.28571429em;
-    font-weight: 700;
-    line-height: 1.2857em;
-    margin: 0;
 }
 
 .card {

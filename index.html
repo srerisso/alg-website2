@@ -35,8 +35,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos</a>
               <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Presupuestos</a>
                 <a class="dropdown-item" href="#">Descargas</a>
-                <a class="dropdown-item" href="#">Consultas técnicas</a>
                 <a class="dropdown-item" href="#">Referencias</a>
               </div>
             </li>
@@ -99,59 +99,42 @@
         <p>Utamur fierent ei eum, ludus ornatus et eum. Nam eu paulo dignissim incorrupte. Nec ferri debitis eu, eum dolorem corrumpit te. In ius summo iusto vitae, tota debet sea ad.</p>
       </div>
 
-      <!-- footer -->
-      <footer class="footer" style="background-color: #def4c6;">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-5">
-                    <h5><i class="fa fa-road"></i> Alugandia S.L.</h5>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="list-unstyled">
-                                <li><a href="">Product</a></li>
-                                <li><a href="">Benefits</a></li>
-                                <li><a href="">Partners</a></li>
-                                <li><a href="">Team</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="list-unstyled">
-                                <li><a href="">Documentation</a></li>
-                                <li><a href="">Support</a></li>
-                                <li><a href="">Legal Terms</a></li>
-                                <li><a href="">About</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
-                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
-                    </ul>
-                    <br>
-                </div>
-
-                <div class="col-md-5">
-                  <h5>Contacto</h5>
-                  <p>Departamento Técnico
-                    <br>
-                    <a href="mailto:tecnico@alugandia.es">tecnico@alugandia.es</a>
-                  </p>
-                  <p>Pedidos
-                    <br>
-                    <a href="mailto:pedidos@alugandia.es">pedidos@alugandia.es</a>
-                  </p>
-                  <p>Administración
-                    <br>
-                    <a href="mailto:administracion@alugandia.es">administracion@alugandia.es</a>
-                  </p>
-                </div>
-            </div>
-        </div>
-      </footer>
     </div> <!-- /container-fluid -->
 
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col">
+                  <h5><i class="fa fa-road"></i> Alugandia S.L.</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="">Empresa</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Descargas</a></li>
+                    <li><a href="">Presupuestos</a></li>
+                    <li><a href="">Referencias</a></li>
+                  </ul>
+              </div>
+
+              <div class="col">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled">
+                  <li><a href="mailto:tecnico@alugandia.es">Departamento Técnico</a></li>
+                  <li><a href="mailto:pedidos@alugandia.es">Pedidos</a></li>
+                  <li><a href="mailto:administracion@alugandia.es">Administración</a></li>
+                </ul>
+              </div> <!-- col-2 -->
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <h5>Localización</h5>
+              <br>
+              <div id="map"></div>
+            </div>
+          </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -160,5 +143,9 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXQrYcwvhb69WRT26WaWerLC4W5JVwk2g&callback=initMap">
+    </script>
+
   </body>
 </html>
