@@ -1,17 +1,18 @@
-.uppercaseandsmall {
-  text-transform: uppercase;
-  font-size: small;
+.dropdown-menu {
+    background-color: #def4c6;
 }
-
 
 /* Footer styles */
 .footer {
-  background-color: #1b512d;
+  background-color: #4f5b6b;
   padding: 10px;
 }
 
 /* Map container en footer */
-#map {
+#map_container{
+  position: relative;
+}
+#map{
     height: 0;
     overflow: hidden;
     padding-bottom: 22.25%;
