@@ -8,21 +8,19 @@
     <link rel="icon" href="favicon.ico">
 
     <title>Alugandia S.L.</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- css styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
 
-    <!-- nav -->
-    <nav class="navbar navbar-toggleable-md bg-success py-md-0">
+    <nav class="navbar navbar-toggleable-md bg-faded">
       <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsAlu" aria-controls="navbarsAlu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand"><img src="images/g4499t_nav.png" alt="alugandia logo" class="d-inline-block"></a>
+      <a class="navbar-brand"><img src="images/g4499t_nav.png" alt="alugandia logo" class="d-inline-block" height="30px"></a>
 
       <div class="collapse navbar-collapse" id="navbarsAlu">
         <ul class="navbar-nav ml-auto">
@@ -32,13 +30,14 @@
           <li class="nav-item">
             <a class="nav-link" href="productos.html">Productos</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Presupuestos</a>
-              <a class="dropdown-item" href="#">Descargas</a>
-              <a class="dropdown-item" href="#">Referencias</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Presupuestos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Descargas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Referencias</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -52,11 +51,12 @@
     <!-- nav ends  -->
 
     <!-- Big image -->
-    <div id="bigImage">
+   <div id="bigImage">
       <img class="img-fluid" src="images/varios/facade1_2.jpg" alt="Facade image frontpage">
     </div>
 
     <p></p>
+
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -118,9 +118,12 @@
               <div class="col">
                 <h5>Contacto</h5>
                 <ul class="list-unstyled">
-                  <li><a href="mailto:tecnico@alugandia.es">Departamento Técnico</a></li>
-                  <li><a href="mailto:pedidos@alugandia.es">Pedidos</a></li>
-                  <li><a href="mailto:administracion@alugandia.es">Administración</a></li>
+                  <li>Departamento Técnico</li>
+                  <li> <a href="mailto:tecnico@alugandia.es">tecnico@alugandia.es</a></li>
+                  <li>Pedidos</li>
+                  <li><a href="mailto:pedidos@alugandia.es">pedidos@alugandia.es</a></li>
+                  <li>Administración</li>
+                  <li><a href="mailto:administracion@alugandia.es">administracion@alugandia.es</a></li>
                 </ul>
               </div> <!-- col-2 -->
           </div>
@@ -128,6 +131,7 @@
           <div class="row">
             <div class="col">
               <h5>Localización</h5>
+              <p>Mapa de situación de Alugandia.</p>
               <br>
               <div id="map_container">
                 <div id="map"></div>
@@ -140,8 +144,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/map.js"></script>
