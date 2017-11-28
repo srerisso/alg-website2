@@ -19,7 +19,7 @@ function initMap() {
 
   // map.set('styles', styles);
 
-  var markerImage = 'images/alugandiamarker.png';
+  var markerImage = 'images/alugandiamarker2.png';
 
   var marker = new google.maps.Marker({
     position: alugandia,
